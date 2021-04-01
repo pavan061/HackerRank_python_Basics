@@ -1,0 +1,9 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+E=int(input())
+#in the below code we are mapping the int and the input we are entering and storing it in a set
+set_1 = set(map(int,input().split()))
+F=int(input())
+#in the below code we are mapping the int and the input we are entering and storing it in a set
+set_2 = set(map(int,input().split()))
+#in the below we are subtracting with symmentric funcction(^) the two sets and finding the element
+print(len(set_1^set_2))
